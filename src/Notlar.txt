@@ -1,6 +1,8 @@
-React Component
+**React Component
 1. Functional Component
 2. Class Component
 3. Hooks Component
 
-Every JavaScript Funtion is a type 
+**Every JavaScript Funtion is a type 
+**Pascal Case == the first letter of the word is capitalized
+**"export" means   "public" on  react
