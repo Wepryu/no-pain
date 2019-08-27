@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import { ListGroup, ListGroupItem } from "reactstrap";
 export default class CategoryList extends Component {
+  constructor(props) {
+    super(props);
+    state: {}
+  }
   render() {
     return (
       <div>
-        <h2>Category List</h2>
+        <h2>{this.props.title}</h2>
         <ListGroup>
           <ListGroupItem>Kırmızı</ListGroupItem>
           <ListGroupItem>Beyaz</ListGroupItem>
