@@ -1,0 +1,21 @@
+dizi.pop() // diziden son elemanı çıkararak getir
+clear()    // konsol ekranı temizler.
+var deger = prompt("ekranda kullanıcıya gözükecek yazı buraya yazılır")   // kullanıcıdan veri girmesini ister ve "deger" değişkenine atar
+alert("merhaba") // ekrana popup formatında bir mesaj çıkartır ve merhaba yazar.
+dizi.shift() // bastan ilk elemanı diziden çıkartır ve çıkarttığı elemanı getirir.
+dizi.push("eleman") // dizinin sonuna "eleman" isimli degiskeni ekler ve dizinin eleman sayısını getirir.
+dizi.concat(["eleman1","eleman2","eleman3"]) diziye  sırasıyla "eleman1", "eleman2" ve "eleman3" dizi elemanlarını ekler ve diziyi getirir. Ancak eski dizinin ilk halini değiştirmez.
+dizi.short() // diziyi alfabetik olarak sıralar.
+dizi.lenght dizinin uzunluğunu yani eleman sayısını getirir.
+örnek nesne tanımı;
+
+var person = {
+    name : "oğuzhan"
+    lastName : "Kocabaş"
+    age : 25
+    bodyLength : "1.80cm"
+}
+
+// kullanırken 
+
+person.name // çıktısı "oğuzhan"
