@@ -72,4 +72,9 @@ function kimlikDogrulama() {
   return girisBasarisi
 //   console.log("Basarisiz Giris")
 }
-kimlikDogrulama();
+if(kimlikDogrulama()){
+    alert("Giris Basarili")
+    lstTvit.map(pvtTvit=>alert(pvtTvit.tvitInscription))
+}else{
+    alert("Kullanici veya sifre bilgileri hatali")
+}
