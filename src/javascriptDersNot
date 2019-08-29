@@ -32,5 +32,8 @@ var divGenel = document.getElementById("div1")                  // elementin ner
 var p2 = document.getElementById("p2")                          // o divin içindeki p2 id li kısmın üstüne konması için p2 elementi seçildi.
 
 divGenel.insertBefore(baslik,p2)                                // div1 id li divin içindeki p2 elementinden öncesinde h1 elementi eklendi
+divGenel.removeChild("p2")                                      // div1 id li divde olan p2 id li element silindi.       
+
+divGenel.replaceChild(baslik,p1)                                // div1 id li divde olan p1 id  li elementin yerine yeni oluşturduğumuz h1 elementini koyduk              
                                                                 /// ...buraya kadar
 ////////////////////////////////////////
