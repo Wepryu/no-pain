@@ -48,6 +48,7 @@ let lstTvit = [
 function kimlikDogrulama() {
   let emailGirilen = prompt("Lütfen mail adresinizi giriniz");
   let sifreGirilen = prompt("Lütfen sifrenizi giriniz");
+  let girisBasarisi= false;
   // var girisDurum = lstKisi.map(pvtKisi => pvtKisi.email === emailGirilen && pvtKisi.sifre === sifreGirilen)
 
   // for (let index = 0; index < lstKisi.length; index++) {
@@ -61,13 +62,14 @@ function kimlikDogrulama() {
   //     }
   // }
 
-  lstKisi.forEach(function(pvtKisi) {
+   lstKisi.forEach(function(pvtKisi) {
     if (pvtKisi.email === emailGirilen && pvtKisi.sifre === sifreGirilen) {
         console.log("Giris Basarili")
-        lstTvit.map(pvtTvit=>console.log(pvtTvit.tvitInscription))
-    } else {
-        console.log("Basarisiz Giris")
+        // lstTvit.map(pvtTvit=>console.log(pvtTvit.tvitInscription))
+        girisBasarisi= true;
     }
   });
+  return girisBasarisi
+//   console.log("Basarisiz Giris")
 }
 kimlikDogrulama();
