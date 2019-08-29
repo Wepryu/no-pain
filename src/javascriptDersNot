@@ -19,3 +19,18 @@ var person = {
 // kullanırken 
 
 person.name // çıktısı "oğuzhan"
+
+
+var queryElemanlari = document.querySelectorAll("p.intro1") // paragraf "p" tegine sahip  ve "intro1" className e sahip olanları getir anlamına gelir ve geri dönüş değeri bir html obje tutan bir dizidir.
+
+///////////////////////////////////////
+var baslik = document.createElement("h1");                     // yeni bir element oluşturuldu
+var node = document.createTextNode("Merhaba Dom Node yapisi")   // içine yazılacak text  node ile oluşturuldu
+baslik.appendChild(node)                                        // node ile element ilişkilendirildi
+   
+var divGenel = document.getElementById("div1")                  // elementin nereye konacağı bilgisi için hazırda var olan div bulundu
+var p2 = document.getElementById("p2")                          // o divin içindeki p2 id li kısmın üstüne konması için p2 elementi seçildi.
+
+divGenel.insertBefore(baslik,p2)                                // div1 id li divin içindeki p2 elementinden öncesinde h1 elementi eklendi
+                                                                /// ...buraya kadar
+////////////////////////////////////////
