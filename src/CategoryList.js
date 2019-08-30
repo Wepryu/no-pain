@@ -20,7 +20,6 @@ export default class CategoryList extends Component {
             {this.state.CategoryLst.map(prmCategory =>(
                 <ListGroupItem key={prmCategory.CategoryId}>{prmCategory.CategoryName}</ListGroupItem>
             ))}
-          
         </ListGroup>
       </div>
     );
