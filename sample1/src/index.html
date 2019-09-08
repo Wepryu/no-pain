@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/genel.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">KOCABAŞLAR</a>
+      <button onclick="dom1()" id="btnDoom1">
+        dom 1
+      </button>
+      <button onclick="dom2()" id="btnDoom2">
+        dom 2
+      </button>
+      <button id="btnDoom3"onclick="kisileriYazdir()">
+          Kişileri Getir
+        </button>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">İletişim</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+              Sayılar
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">bir</a>
+              <a class="dropdown-item" href="#">iki</a>
+              <a class="dropdown-item" href="#">Üç</a>
+              <a class="dropdown-item" href="#">dört</a>
+              <a class="dropdown-item" href="#">beş</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="mt-4 mb-3">
+    </h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+      </div>
+      <div class="col-lg-6">
+        <h2>BİZ KİMİZ?</h2>
+        <p>İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik
+          burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.</p>
+        <p>İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik
+          burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.</p>
+        <p>İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik
+          burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.İçerik burada.</p>
+      </div>
+    </div>
+
+    <h2>TAKIM ARKADAŞLARI</h2>
+
+    <div class="row" id="kisiDv" >
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Timurhan Kocabaş</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Pozisyon</h6>
+            <p class="card-text">Yazılım Geliştirici</p>
+          </div>
+          <div class="card-footer" >
+            <a href="#" id="mail_0" onmouseover="mOver(this)" onmouseout="mOut(this)">timurhankocabas@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Sıdıka Kocabaş</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Pozisyon</h6>
+            <p class="card-text">Yazılım Geliştirici</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" id="mail_1" onmouseover="mOver(this)" onmouseout="mOut(this)">sidikakocabas@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Tuğrul Kocabaş</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Pozisyon</h6>
+            <p class="card-text">Yazılım Geliştirici</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" id="mail_2" onmouseover="mOver(this)" onmouseout="mOut(this)">tugrulkocabas@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>MÜŞTERİLER</h2>
+    <div class="row">
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; KOCABASLAR 2019</p>
+    </div>
+  </footer>
+  <script src="../js/dom.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
